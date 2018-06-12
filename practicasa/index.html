@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF -8">
+		<title>Adaptativo </title>
+		<style>
+		@media (max-width: 480px){
+			.sidebar{
+				display: none;
+			}
+		}
+		@media (min-width: 481px) and (max-width: 768px){
+			.sidebar{
+				width: 120px;
+				box-sizing: border-box;
+				padding: 20px;
+				float: left;
+				font-size: 0.8em;
+				display: table-cell;
+			}
+			.main {
+				display: table-cell;
+				width: 360px;
+				padding: 20px;
+				box-sizing: border-box;
+			}
+		}
+		@media (min-width: 769px){
+
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="sidebar">
+			<h1>Lorem </h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis consequuntur deserunt hic ipsa excepturi, consequatur, possimus doloribus totam. Sunt ducimus totam nemo harum quam laborum maiores, impedit necessitatibus dolore adipisci!</p>
+			
+
+		</div>
+		<div class="main">
+			<h1>Lorem main</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ipsam eos asperiores at sequi ex nulla iusto maxime nostrum odio, eligendi consequuntur, aperiam aliquid minima nihil pariatur consectetur libero consequatur!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error necessitatibus, ut at nobis odio praesentium doloremque et laudantium. Ducimus, nihil, reprehenderit! Dignissimos eius architecto repellendus obcaecati a illum dolores dolorum?</p>
+		</div>
+	</body>
+</html>
