@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+}
+
+.top{
+	background: green;
+	height: 200px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top h1{
+	color: white;
+}
+
+/* fin de top */
+
+.grillaNormal{
+	width: 33%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.grillaNormal img{
+	width: 100%;
+}
